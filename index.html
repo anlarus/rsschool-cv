@@ -8,7 +8,18 @@
     <title>Curriculum Vitae Anna Larus</title>
   </head>
   <body>
-    <div class="col2">
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#exp">Experience</a></li>
+          <li><a href="#educ">Education</a></li>
+          <li><a href="#skl">Skills</a></li>
+          <li><a href="#more">More</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="col2">
       <h1>Anna Aleinikova /nickname Anna Larus®</h1>
       <p>
         <img
@@ -17,12 +28,9 @@
           alt="my photo"
           vspace="5"
           hspace="5"
-        /><em
-          ><b>Adress:</b> Chile, Valparaiso, Labruyere 286 Phone: +56 972 777
-          000 (WhatsApp) E-mail: anialeinikova@gmail.com</em
-        >
+        />
       </p>
-      <p>
+      <p id="about">
         I am 36 and easy learner. For last 7 years I have been a self-studied
         and self-employed tourist guide and travel coordinator. I genuinely love
         logic and algorithms, and consider myself potentially good at Maths as
@@ -33,7 +41,7 @@
       </p>
       <hr />
       <br />
-      <h3>Experience</h3>
+      <h3 id="exp">Experience</h3>
       <ul>
         <li><b>2020 - until now</b> intern at a Customs Agency JVD in Chile</li>
         <li>
@@ -56,12 +64,11 @@
         </li>
       </ul>
       <hr />
-      <h3>Education</h3>
+      <h3 id="educ">Education</h3>
       <ul>
         <li>
           <b>2021 - until now</b> studying Front End Development course by
-          <a href="https://www.acamica.com/">Acamica</a> - Escuela de
-          Programación y Software
+          <a href="https://www.acamica.com/">Acamica</a> - Software school
         </li>
         <li>
           <b>2021</b> finished Basic Front End Development course by
@@ -88,7 +95,7 @@
         </li>
       </ul>
       <hr />
-      <h3>Hard Skills</h3>
+      <h3 id="skl">Hard Skills</h3>
       <ol>
         <li>
           CRM systems:
@@ -128,7 +135,7 @@
         Code Sample: Factorial from my
         <a href="https://www.codewars.com/users/anlarus">Codewars</a> profile
       </p>
-      <div class="code">
+      <article class="code">
         function factorial(n)
         <br />
         {if (n < 0 || n > 12) { throw new RangeError("Error!"); }
@@ -161,10 +168,10 @@
           <br />
           //exit the for loop returning the ultimate "inside range" result
         </p>
-      </div>
+      </article>
       <hr />
       <br />
-      <h3>My essence and free time</h3>
+      <h3 id="more">My essence and free time</h3>
       <p>
         <img
           id="hobby"
@@ -207,10 +214,10 @@
         <div>
           <ul>
             <li><a href="https://github.com/anlarus">My Github</a></li>
-            <li><a href="https://rs.school/js/">RS School</a></li>
             <li>2021</li>
-            <li>Anna Larus®</li>
-            <li>JS_Stage0_2021Q3</li>
+            <li>Chile +56972777000</li>
+            <li>anialeinikova@gmail.com</li>
+            <li><a href="https://rs.school/js/">RS School</a></li>
           </ul>
         </div>
         <img
@@ -219,6 +226,6 @@
           class="logo"
         />
       </footer>
-    </div>
+    </section>
   </body>
 </html>
